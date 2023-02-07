@@ -567,7 +567,7 @@ export default function SecondStep() {
                 </SelectWrapper >
                 {/* 미리보기 */}
                 <PreviewShow bgColor={dark}>
-                    <div style={{"background-color": dark}}>
+                    <div style={{"background-color": dark, "width": "100%"}}>
                         <h2 style={{"font-size": "30px", "color" : darkMode}}>미리보기</h2>
                                 <Viewer ref={ref} /> 
                                 <Viewer ref={ref1} /> 

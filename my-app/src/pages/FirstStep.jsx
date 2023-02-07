@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import '../pages/style.css';
 import styled from 'styled-components';
-import {Checkboxinput, Typeheader, Selectwrapper} from '../components/style.jsx';
+import {Checkboxinput, Typeheader, Selectwrapper, Inputwrap} from '../components/style.jsx';
 import header from '../asset/header.svg';
 import intro from '../asset/intro.png';
 import skill from '../asset/skill.png';
@@ -122,27 +122,27 @@ export default function FirstStep() {
        <Selectwrapper>
             <Typeheader>2. Profile에 추가하고 싶은 내용을 선택하세요.</Typeheader>
                 <SelectWrap>
-                    <Checkboxinput type="checkbox" name='header' onClick={checkchecked} />헤더
+                    <Inputwrap><Checkboxinput type="checkbox" name='header' onClick={checkchecked} />헤더</Inputwrap>
                     <Eximg src={header} alt='헤더'/>
                 </SelectWrap>
                 <br />
                 <SelectWrap>
-                    <Checkboxinput type="checkbox" name='introduction' onClick={checkchecked}/>자기소개
+                    <Inputwrap><Checkboxinput type="checkbox" name='introduction' onClick={checkchecked}/>자기소개</Inputwrap>
                     <Eximg src={intro} alt='자기소개'/>
                 </SelectWrap>
                 <br />
                 <SelectWrap>
-                    <Checkboxinput type="checkbox" name='skillstack' onClick={checkchecked}/>기술스택
+                    <Inputwrap><Checkboxinput type="checkbox" name='skillstack' onClick={checkchecked}/>기술스택</Inputwrap>
                     <Eximg src={skill} alt='기술스택'/>
                 </SelectWrap>
                 <br />
                 <SelectWrap>
-                    <Checkboxinput type="checkbox" name='contact' onClick={checkchecked}/>블로그, 이메일, link연결 페이지
+                    <Inputwrap><Checkboxinput type="checkbox" name='contact' onClick={checkchecked}/>블로그, 이메일, link연결 페이지</Inputwrap>
                     <Eximg  src={contact} alt='연락방법'/>
                 </SelectWrap>
                 <br />
                 <SelectWrap>
-                    <Checkboxinput type="checkbox" name='stat' onClick={checkchecked}/>Github Stat
+                    <Inputwrap><Checkboxinput type="checkbox" name='stat' onClick={checkchecked}/>Github Stat</Inputwrap>
                     <Eximg src={stat} alt='stat'/>
                     {/* <Eximg src={language} alt='most used language'/> */}
                 </SelectWrap>

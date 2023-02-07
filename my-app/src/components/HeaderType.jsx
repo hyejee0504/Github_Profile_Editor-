@@ -5,7 +5,7 @@ import {Checkboxinput, Typeheader} from '../components/style';
 export default function HeaderType(props) {
   const inputref = useRef()
   const cancelcheck = (e) => {
-    for(var i = 0; i < 19; i+=2){
+    for(var i = 0; i < 20; i+=1){
       inputref.current.childNodes[i].checked = false;
     }
     e.target.checked = true;

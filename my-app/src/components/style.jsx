@@ -6,7 +6,7 @@ export const Checkboxinput = styled.input`
     margin-right: 3px;
     margin-left: 10px;
     display: inline-block;
-    font-size: 1em;
+    font-size: 15px;
 
   `
 export const Typeheader = styled.h3`
@@ -16,5 +16,10 @@ export const Typeheader = styled.h3`
 
 export const Selectwrapper = styled.div`
   margin: 20px 0px;
-  font-size: 1em;
+  /* font-size: 12px; */
+`
+
+export const Inputwrap = styled.div`
+  display: inline-block;
+  font-size: 18px;
 `
