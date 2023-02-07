@@ -4,7 +4,7 @@ import {Checkboxinput, Typeheader, Selectwrapper} from '../components/style';
 
 export default function HeaderColor(props) {
   const [gradient, setGradient] = useState(180);
-  const [textcolor, setTextcolor] = useState("ffffff");
+  const [textcolor, setTextcolor] = useState("000000");
   const [color, setColor] = useState("000000");
   const [color2, setColor2] = useState("");
   
