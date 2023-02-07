@@ -32,8 +32,7 @@ const Wrapper = styled.div`
 
 const SelectWrapper = styled.div`
     width: 60%;
-    
-    padding-right:15px;
+    padding-right:25px;
     padding-left: 15px;
     position: relative;
 `
