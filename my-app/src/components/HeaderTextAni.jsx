@@ -6,7 +6,7 @@ export default function HeaderColor(props) {
   const inputref = useRef();
 
   const cancelcheck = (e) => {
-    for(var i = 0; i < 13; i+=1){
+    for(var i = 0; i < 12; i+=1){
       inputref.current.childNodes[i].checked = false;
     }
     e.target.checked = true;
