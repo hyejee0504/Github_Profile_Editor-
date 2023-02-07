@@ -72,6 +72,7 @@ export default function HeaderColor(props) {
 "Keras": "D00000",
 "Linux" : "FCC624",
 "MariaDB" : "003545",
+"Matlab": "0076a8",
 "MongoDB" : "47A248",
 "MySQL":"4479A1",
 "Netlify" : "00C7B7",
@@ -87,6 +88,8 @@ export default function HeaderColor(props) {
 "React" : "61DAFB",
 "ReactNative" : "61DAFB",
 "ReactiveX": "B7178C",
+"React Query": "FF4154",
+"Recoil" : "0179f3",
 "Redux" : "764ABC",
 "ReduxSaga": "999999",
 "Sass" : "CC6699",
@@ -102,9 +105,6 @@ export default function HeaderColor(props) {
 "Vercel" : "000000",
 "Vue.js" : "4FC08D",
 "Zeplin": "fdbd39",
-"Matlab": "0076a8"
-
-
 
   }
 
